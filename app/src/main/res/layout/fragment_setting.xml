@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingFragment">
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/dark_theme_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/tab_background"
+        android:paddingHorizontal="15dp"
+        android:text="dark mode"
+        android:textColor="?attr/text_color"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086"
+        app:layout_editor_absoluteY="80dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/credits_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/tab_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dark_theme_switch"
+        app:layout_constraintVertical_bias="0.307"
+        tools:layout_editor_absoluteX="0dp"
+        android:minHeight="30dp"
+        android:text="Credits"
+        android:textColor="?attr/text_color"
+        android:textSize="20sp"
+        android:paddingHorizontal="15dp"
+        />
+
+    <TextView
+        android:id="@+id/contact_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/tab_background"
+        android:paddingHorizontal="15dp"
+        android:text="Contact us"
+        android:textColor="?attr/text_color"
+        android:textSize="20sp"
+        android:minHeight="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/credits_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
