@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ASUS/Desktop/Project/MovieTrackerApp/app/src/main/res/layout/activity_start.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/ASUS/Desktop/Project/MovieTrackerApp/app/src/main/res/layout/fragment_search.xml" value="0.3625" />
         <entry key="..\:/Users/ASUS/Desktop/Project/MovieTrackerApp/app/src/main/res/layout/fragment_setting.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/ASUS/Desktop/Project/MovieTrackerApp/app/src/main/res/layout/home_movies_list.xml" value="0.3458333333333333" />
       </map>
     </option>
   </component>
